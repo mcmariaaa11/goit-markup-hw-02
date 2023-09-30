@@ -28,6 +28,11 @@ body {
     text-decoration: none;
 }
 
+.title-button .button-request {
+    background-color: #2196F3;
+    color: #FFF;
+}
+
 .first-section button:link,
 .first-section button:visited {    
     background-color: #F5F4FA;
@@ -39,6 +44,11 @@ body {
 .first-section button:hover {
     background-color: #2196F3;
     color:#FFF ;
+}
+
+.button-focus :focus {
+    background-color: #2196F3;
+    color: #FFF;
 }
 ul {
     list-style-type: none;
@@ -92,10 +102,7 @@ ul {
 
 
 
-.button-request {
-    background-color: #2196F3;
-    color: #FFF;
-}
+
 
 
 
