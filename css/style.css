@@ -28,9 +28,18 @@ body {
     text-decoration: none;
 }
 
+
 .title-button .button-request {
     background-color: #2196F3;
-    color: #FFF;
+    color: #FFF;;
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+
 }
 
 .first-section button:link,
@@ -123,17 +132,7 @@ h1 {
     text-transform: uppercase;
     }
 
-    .title-button .button-request {
-        color: #FFF;;
-        text-align: center;
-        font-family: inherit;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 30px; /* 187.5% */
-        letter-spacing: 0.96px;
-
-    }
+  
 
     .contacts-header a {
         color: #757575;
