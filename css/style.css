@@ -55,7 +55,8 @@ body {
     color:#FFF ;
 }
 
-.button-focus :focus {
+.first-section .button-focus :hover,
+.first-section .button-focus :focus {
     background-color: #2196F3;
     color: #FFF;
 }
@@ -285,19 +286,20 @@ h1 {
  .global-footer a{
     text-decoration: none;
  }
- .global-footer a >.location-adress {
-   
-     color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
+
+
+ .contact-section {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px; /* 114.286% */
+    line-height: normal;
     letter-spacing: 0.42px;
     width: 231px;
     height: 16px;
- }
-
+    flex-shrink: 0; 
+    }
  
 
 
